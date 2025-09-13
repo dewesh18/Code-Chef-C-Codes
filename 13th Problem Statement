@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin >> t;
+	
+	while(t--){
+	    int m, n;
+	    cin >> n;
+	    cin >> m;
+	    
+	    if (n >= m){
+	        cout << n - m << endl;
+	    }
+	    else 
+	        cout << 0 << endl;
+	}
+	return 0;
+
+}
