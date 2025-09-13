@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	
+	int t;
+	cin >> t;
+	
+	while(t--){
+	    int x;
+	    int y;
+	    int a;
+	    
+	    cin >> x;
+	    cin >> y;
+	    a = x * y;
+	     
+	    cout << a << endl;
+	}
+	return 0;
+
+}
